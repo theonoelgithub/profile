@@ -37,6 +37,32 @@ a:hover {
   color: #f47645;
 }
 
+#sidebar {
+  position: fixed;
+  width: 120px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  background-color: rgba(0,0,0,0.1);
+  font-size: 30px;
+  line-height:70px;
+  transition: background-color 0.3s;
+}
+
+#sidebar:hover {
+background-color: rgba(0,0,0,0.2);
+}
+
+#sidebar ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+#page-content {
+  margin-left: 300px;
+}
+
 .container {
   margin: 0 auto;
   width: 800px;
