@@ -86,6 +86,11 @@ background-color: rgba(0,0,0,0.2);
   box-shadow: 15px 10px 10px rgba(0,0,0,0.5);
 }
 
+#avatar {
+  width: 100%;
+  max-width: 300px;
+}
+
 .img-circle {
   border-radius: 50%;
 }
